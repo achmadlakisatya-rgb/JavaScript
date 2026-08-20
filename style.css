@@ -1,0 +1,19 @@
+#judul{
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    text-align: center;
+}
+p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+.namalengkap{
+    background-color: yellow;
+    text-align: center;
+    
+
+}
+.namalengkap2{
+    text-align: center;
+}
