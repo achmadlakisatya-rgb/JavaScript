@@ -1,0 +1,148 @@
+/* --- Reset & Baseline Styles --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #654321;
+    background-color: #f4f7f6;
+    padding-bottom: 50px;
+}
+
+/* --- Container Utama / Pembungkus --- */
+body > h2, 
+body > p, 
+body > img, 
+body > form, 
+body > hr {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* --- Menu Navigasi (Sticky Bar) --- */
+div[style*="sticky"] {
+    background-color: #654321 !important; /* Warna navbar utama */
+    padding: 15px 20px !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+div[style*="sticky"] button {
+    background-color: #8B4513;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+div[style*="sticky"] button:hover {
+    background-color: #D2691E;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Section Headings --- */
+h2 {
+    color: #2c3e50;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-left: 5px solid #D2B48C;
+    padding-left: 10px;
+    font-size: 1.5rem;
+}
+
+/* --- Paragraf & Teks --- */
+p {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+strong {
+    color: #000000; /* Highlight warna nama */
+}
+
+/* --- Gambar & Galeri --- */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    margin: 20px auto;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.02);
+}
+
+/* --- Garis Pembatas (HR) --- */
+hr {
+    border: 0;
+    height: 1px;
+    background: #e0e0e0;
+    margin: 30px auto;
+}
+
+/* --- Form Hubungi Kami --- */
+form {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #2c3e50;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #8B4513;
+}
